@@ -23,9 +23,11 @@ return badges
 end
 
 def printer
-batch_badge_creator(attendees).each do ||
+batch_badge_creator(attendees).each do |badges|
+  puts badges
 
 
-assign_rooms(attendees)
+assign_rooms(attendees).each do |rooms|
+  [uts ]
   
 end
