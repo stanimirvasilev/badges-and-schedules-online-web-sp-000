@@ -21,3 +21,8 @@ badges << "Hello, #{names}! You'll be assigned to room #{room}!"
 end
 return badges
 end
+
+def printer
+  
+  
+end
