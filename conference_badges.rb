@@ -11,3 +11,12 @@ badges << "Hello, my name is #{names}."
 end
 return badges
 end
+
+def assign_rooms(attendees)
+  badges = []
+ attendees.each do |names| 
+badges << "Hello, my name is #{names}."
+
+end
+return badges
+end
