@@ -22,7 +22,7 @@ end
 return badges
 end
 
-def printer
+def printer(attendees)
 batch_badge_creator(attendees).each do |badges|
   puts badges
 end
